@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <!-- fontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!--custom css  -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1 class="title">Register Here</h1>
+        <form class="from-sumbit">
+        <div class="form-control">
+          <label for="username">Enetr Your Name</label>
+          <input id="username" type="text" name="username" />
+        </div>
+
+        <div class="form-control">
+          <label for="email">Enetr Your Email</label>
+          <input id="email" type="email" name="email" />
+        </div>
+
+        <div class="form-control">
+          <label for="">Enter Your Mobile</label>
+          <input id="mobile" type="number" name="mobile" />
+        </div>
+
+        <div class="form-control">
+          <label for="password">password</label>
+          <input id="password" type="password" name="password" />
+        </div>
+
+        <div class="form-control">
+          <label for="confirm-password">Confirm-Password</label>
+          <input id="confirm-password" type="password" name="confirm-password" />
+        </div>
+
+        </form>
+      </div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
+
